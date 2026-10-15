@@ -38,7 +38,7 @@ The Streamlit app provides:
 - Database selection from the sidebar;
 - Reading/viewing table contents in a Pandas data editor;
 - Inline editing and saving changes back to SQLite;
-- Inserting new records using dynamic forms;
+- Inserting new records using;
 - Deleting existing records;
 - Validating inputs before inserting data.
 
