@@ -1,15 +1,15 @@
 import sqlite3
 
-# Central place to configure DB filenames
+# Configure DB filenames
 DB_INSTALLATIONS = "solar_installations.db"
 DB_TELEMETRY = "solar_telemetry.db"
 DB_GRID = "grid_exchanges.db"
 
 
 def init_installations_db():
-    """
-    Creates and populates the Solar Installations database
-    """
+    
+    # Creates and populates the Solar Installations database
+    
     db_file = DB_INSTALLATIONS
     conn = sqlite3.connect(db_file)
     cursor = conn.cursor()
@@ -49,9 +49,9 @@ def init_installations_db():
 
 
 def init_telemetry_db():
-    """
-    Creates and populates the Solar Telemetry database
-    """
+    
+    #Creates and populates the Solar Telemetry database
+    
     db_file = DB_TELEMETRY
     conn = sqlite3.connect(db_file)
     cursor = conn.cursor()
@@ -151,9 +151,9 @@ def init_telemetry_db():
 
 
 def init_grid_db():
-    """
-    Creates and populates the Grid Exchanges database
-    """
+    
+    # Creates and populates the Grid Exchanges database
+    
     db_file = DB_GRID
     conn = sqlite3.connect(db_file)
     cursor = conn.cursor()
